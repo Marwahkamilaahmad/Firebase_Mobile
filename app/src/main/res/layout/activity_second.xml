@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical"
+    android:paddingVertical="50dp"
+    android:paddingHorizontal="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan Makan"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edit_nominal"
+        android:hint="nominal"
+        android:paddingHorizontal="15dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"/>
+
+    <EditText
+        android:id="@+id/edit_desc"
+        android:hint="description"
+        android:paddingHorizontal="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"/>
+
+    <EditText
+        android:id="@+id/edit_date"
+        android:hint="tanggal"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="15dp"
+        android:background="@drawable/edit_text"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edit_pemesan"
+        android:hint="nama"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="15dp"
+        android:background="@drawable/edit_text"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edit_alamat"
+        android:hint="alamat"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="15dp"
+        android:background="@drawable/edit_text"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_save"
+        android:text="SAVE"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_edit"
+        android:text="UPDATE"
+        android:background="@drawable/rounded_button"
+        />
+
+</LinearLayout>
